@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F85AF932171367D00A9E352 /* pimple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F85AF922171367D00A9E352 /* pimple.swift */; };
+		0F85AF952171387300A9E352 /* pimple.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0F85AF942171387300A9E352 /* pimple.gif */; };
 		D8BE0C49214CADC8001C23F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8BE0C48214CADC8001C23F3 /* AppDelegate.swift */; };
 		D8BE0C4F214CADC8001C23F3 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8BE0C4E214CADC8001C23F3 /* GameScene.swift */; };
 		D8BE0C51214CADC8001C23F3 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8BE0C50214CADC8001C23F3 /* GameViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F85AF922171367D00A9E352 /* pimple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pimple.swift; sourceTree = "<group>"; };
+		0F85AF942171387300A9E352 /* pimple.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = pimple.gif; path = ../../../Desktop/pimple.gif; sourceTree = "<group>"; };
 		D8BE0C45214CADC8001C23F3 /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8BE0C48214CADC8001C23F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D8BE0C4E214CADC8001C23F3 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
@@ -58,8 +62,10 @@
 			children = (
 				D8BE0C48214CADC8001C23F3 /* AppDelegate.swift */,
 				D8BE0C4E214CADC8001C23F3 /* GameScene.swift */,
+				0F85AF922171367D00A9E352 /* pimple.swift */,
 				D8BE0C50214CADC8001C23F3 /* GameViewController.swift */,
 				D8BE0C52214CADC8001C23F3 /* Main.storyboard */,
+				0F85AF942171387300A9E352 /* pimple.gif */,
 				D8BE0C55214CADCA001C23F3 /* Assets.xcassets */,
 				D8BE0C57214CADCA001C23F3 /* LaunchScreen.storyboard */,
 				D8BE0C5A214CADCA001C23F3 /* Info.plist */,
@@ -126,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D8BE0C54214CADC8001C23F3 /* Main.storyboard in Resources */,
+				0F85AF952171387300A9E352 /* pimple.gif in Resources */,
 				D8BE0C56214CADCA001C23F3 /* Assets.xcassets in Resources */,
 				D8BE0C59214CADCA001C23F3 /* LaunchScreen.storyboard in Resources */,
 			);
@@ -140,6 +147,7 @@
 			files = (
 				D8BE0C4F214CADC8001C23F3 /* GameScene.swift in Sources */,
 				D8BE0C51214CADC8001C23F3 /* GameViewController.swift in Sources */,
+				0F85AF932171367D00A9E352 /* pimple.swift in Sources */,
 				D8BE0C49214CADC8001C23F3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
